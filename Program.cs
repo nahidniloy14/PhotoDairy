@@ -1,10 +1,12 @@
-﻿using System;
+﻿using DigitalPhotoDiary.PresentationLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Photo_Dairy
+
+namespace DigitalPhotoDiary
 {
     static class Program
     {
@@ -16,7 +18,7 @@ namespace Photo_Dairy
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new LoginPanel());
         }
     }
 }
